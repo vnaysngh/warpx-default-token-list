@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Ethereum",
+    "address": "0xA51EbEdb0970133D016444Be0049efFE9257D06A",
+    "symbol": "ETH",
+    "decimals": 18,
+    "chainId": 6343,
+    "logoURI": "https://testnet.warpx.exchange/logos/ethereum.png"
+  },
+  {
+    "name": "WarpX",
+    "address": "0x5124C91CDa8dA5C2B0c838C64b25089443f5D109",
+    "symbol": "WARPX",
+    "decimals": 18,
+    "chainId": 6343,
+    "logoURI": "https://testnet.warpx.exchange/logos/warpx.png"
+  },
+  {
+    "name": "Wrapped USD",
+    "address": "0x07b1EDd4a0D76D07C5A91B9159D13Cb51C8e4E42",
+    "symbol": "wUSD",
+    "decimals": 6,
+    "chainId": 6343,
+    "logoURI": "https://testnet.warpx.exchange/logos/wusd.png"
+  },
+  {
+    "name": "xBTC",
+    "address": "0x463151b80DFf738Bb02BA3B4C9Bd788daeEc751c",
+    "symbol": "xBTC",
+    "decimals": 8,
+    "chainId": 6343,
+    "logoURI": "https://testnet.warpx.exchange/logos/xbtc.png"
+  },
+  {
+    "name": "MegaSpeed Inu",
+    "address": "0xd06C98B3611A4D11ab0271344dDAE8dCad6faD0F",
+    "symbol": "MSI",
+    "decimals": 18,
+    "chainId": 6343,
+    "logoURI": "https://testnet.warpx.exchange/logos/msi.png"
+  },
+  {
+    "name": "Wrapped USDC",
+    "address": "0x9f5A17BD53310D012544966b8e3cF7863fc8F05f",
+    "symbol": "wUSDC",
+    "decimals": 6,
+    "chainId": 6343,
+    "logoURI": "https://testnet.warpx.exchange/logos/usd.png"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "name": "@warpx/default-token-list",
+  "version": "9.0.5",
+  "description": "WarpX default token list",
+  "main": "build/warpx-default.tokenlist.json",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha",
+    "build": "rimraf build && mkdir -p build && node src/write.js > build/warpx-default.tokenlist.json &&  cp -r ./public/* ./build",
+    "publish:blob": "node scripts/publish.js",
+    "prepublishOnly": "npm test && npm run build"
+  },
+  "files": [
+    "build/warpx-default.tokenlist.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warpx/default-token-list.git"
+  },
+  "keywords": [
+    "warpx",
+    "default",
+    "token",
+    "list"
+  ],
+  "author": "WarpX",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/warpx/default-token-list/issues"
+  },
+  "homepage": "https://github.com/warpx/default-token-list#readme",
+  "devDependencies": {
+    "@uniswap/token-lists": "^1.0.0-beta.35",
+    "@vercel/blob": "^0.27.0",
+    "ajv": "^6.12.3",
+    "chai": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "mocha": "^10.0.0",
+    "rimraf": "^3.0.2"
+  }
+}

@@ -5,16 +5,13 @@ const { execSync } = require("child_process");
 const { put } = require("@vercel/blob");
 
 const env = process.env;
-const TOKEN = env.VERCEL_BLOB_READ_WRITE_TOKEN || "";
-const STORE_ID = env.VERCEL_BLOB_STORE_ID || "";
-const DESTINATION_KEY =
-  env.VERCEL_BLOB_OBJECT_KEY || "token-lists/warpx-default.json";
-const MAINNET_KEY =
-  env.VERCEL_BLOB_MAINNET_OBJECT_KEY || "token-lists/warpx-mainnet.json";
-const TESTNET_KEY =
-  env.VERCEL_BLOB_TESTNET_OBJECT_KEY || "token-lists/warpx-testnet.json";
-const MAINNET_CHAIN_ID = Number(env.MAINNET_CHAIN_ID || 4326);
-const TESTNET_CHAIN_ID = Number(env.TESTNET_CHAIN_ID || 6343);
+const TOKEN = env.VERCEL_BLOB_READ_WRITE_TOKEN;
+const STORE_ID = env.VERCEL_BLOB_STORE_ID;
+const DESTINATION_KEY = env.VERCEL_BLOB_OBJECT_KEY;
+const MAINNET_KEY = env.VERCEL_BLOB_MAINNET_OBJECT_KEY;
+const TESTNET_KEY = env.VERCEL_BLOB_TESTNET_OBJECT_KEY;
+const MAINNET_CHAIN_ID = Number(env.MAINNET_CHAIN_ID);
+const TESTNET_CHAIN_ID = Number(env.TESTNET_CHAIN_ID);
 
 if (!TOKEN || !STORE_ID) {
   console.error(

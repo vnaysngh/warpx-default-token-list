@@ -18,17 +18,6 @@ Run `yarn` once to install dependencies, then use `yarn test` to validate the li
 and `yarn build` to regenerate the JSON artifact. Commit the `build` folder each
 time you change tokens so downstream consumers get the latest list.
 
-To publish the latest artifact to Vercel Blob storage, set `BLOB_READ_WRITE_TOKEN`,
-`BLOB_STORE_ID`, and optionally any of the following overrides:
-
-- `BLOB_OBJECT_KEY` – combined list key (defaults to `token-lists/warpx-default.json`)
-- `BLOB_MAINNET_OBJECT_KEY` – mainnet-only list key (defaults to `token-lists/warpx-mainnet.json`)
-- `BLOB_TESTNET_OBJECT_KEY` – testnet-only list key (defaults to `token-lists/warpx-testnet.json`)
-- `MAINNET_CHAIN_ID` / `TESTNET_CHAIN_ID` – override chain IDs if they change later
-
-Then run `yarn publish:blob`. The script will run tests, build the list, and upload the combined,
-mainnet-only, and testnet-only JSON files to the configured blob bucket.
-
 ### Disclaimer
 
 Requesting a token addition does not guarantee inclusion. Reviews happen on a

@@ -1,5 +1,5 @@
 {
-  "name": "@warpx/default-token-list",
+  "name": "warpx-default-token-list",
   "version": "9.0.5",
   "description": "WarpX default token list",
   "main": "build/warpx-default.tokenlist.json",

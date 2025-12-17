@@ -1,4 +1,4 @@
-# @warpx/default-token-list
+# warpx-default-token-list
 
 This repository hosts the default token list shipped with the WarpX interface.
 It reuses the Uniswap-compatible token list schema so the JSON artifact can be
@@ -9,7 +9,7 @@ only.
 ## Adding a token
 
 To request a new token for the WarpX interface,
-[file an issue](https://github.com/warpx/default-token-list/issues/new?assignees=&labels=token+request&template=token-request.md&title=Add+%7BTOKEN_SYMBOL%7D%3A+%7BTOKEN_NAME%7D)
+[file an issue](https://github.com/vnaysngh/warpx-default-token-list/issues/new?assignees=&labels=token+request&template=token-request.md&title=Add+%7BTOKEN_SYMBOL%7D%3A+%7BTOKEN_NAME%7D)
 with links that help us validate the token.
 
 ## Dev

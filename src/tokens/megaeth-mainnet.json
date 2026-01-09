@@ -1,10 +1,26 @@
 [
   {
-    "name": "Starknet",
-    "address": "0x04718f5a0fc34cc1af16a1cdee98ffb20c31f5cd61d6ab07201858f4287c938d",
-    "symbol": "STRK",
+    "name": "MEGA",
+    "address": "0x28B7E77f82B25B95953825F1E3eA0E36c1c29861",
+    "symbol": "MEGA",
     "decimals": 18,
     "chainId": 4326,
-    "logoURI": "https://raw.githubusercontent.com/warpx/default-token-list/main/public/assets/STRK.png"
+    "logoURI": "https://raw.githubusercontent.com/warpx/default-token-list/main/public/assets/mega.png"
+  },
+  {
+    "name": "Wrapped Ether",
+    "address": "0x4200000000000000000000000000000000000006",
+    "symbol": "WETH",
+    "decimals": 18,
+    "chainId": 4326,
+    "logoURI": "https://raw.githubusercontent.com/warpx/default-token-list/main/public/assets/ethereum.png"
+  },
+  {
+    "name": "Fluffey",
+    "address": "0xc5808cf8be4e4ce012aa65bf6f60e24a3cc82071",
+    "symbol": "FLUFFEY",
+    "decimals": 18,
+    "chainId": 4326,
+    "logoURI": "https://raw.githubusercontent.com/warpx/default-token-list/main/public/assets/fluffey.png"
   }
 ]

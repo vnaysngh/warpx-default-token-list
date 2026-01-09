@@ -1,8 +1,8 @@
 [
   {
-    "name": "Ethereum",
+    "name": "Wrapped Ether",
     "address": "0xA51EbEdb0970133D016444Be0049efFE9257D06A",
-    "symbol": "ETH",
+    "symbol": "WETH",
     "decimals": 18,
     "chainId": 6343,
     "logoURI": "https://testnet.warpx.exchange/logos/ethereum.png"
